@@ -1,0 +1,947 @@
+.gridbox1 {
+  display: grid;
+  height: 1230px;
+  min-width: 200px;
+  background-color: #e5e5e5;
+  position: relative;
+  margin-left: -1rem;
+  margin-top: -3rem;
+}
+
+.boxpic {
+  position: absolute;
+  left: 79%;
+  top: 35%;
+  transform: translate(-80%, -50%);
+  width: 1380px;
+  height: 820px;
+}
+
+.rakuten {
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  top: 64%;
+  transform: translate(-50%, -56%);
+  width: 1200px;
+  height: 900px;
+}
+
+.orangebox {
+  position: absolute;
+  background-color: #ea651c;
+  width: 430px;
+  height: 700px;
+  left: 46%;
+  top: 60%;
+  transform: translate(-80%, -50%);
+}
+
+.blackbox {
+  position: absolute;
+  background-color: #292d33;
+  width: 530px;
+  height: 300px;
+  margin: 0;
+  left: 40%;
+  top: 32%;
+  transform: translate(-80%, -50%);
+  box-shadow: 0px 0px 24px #292d33;
+}
+
+.agency {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  left: 86%;
+  top: 17%;
+  transform: translate(-80%, -50%);
+  letter-spacing: 3px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  font-size: 0.5cm;
+}
+
+.agencyy {
+  position: absolute;
+  margin: 0;
+  left: 41%;
+  top: 39%;
+  transform: translate(-80%, -50%);
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-size: 1.6cm;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.agencyyy {
+  position: absolute;
+  margin: 0;
+  left: 46%;
+  top: 65%;
+  transform: translate(-80%, -50%);
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-size: 1.6cm;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.agencyyyy {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  left: 86%;
+  top: 85%;
+  transform: translate(-80%, -50%);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 0.4cm;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.freepik {
+  cursor: pointer;
+  border-bottom: 1px solid #ea651c;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 0.2cm;
+}
+
+.missionbox {
+  position: absolute;
+  background-color: #ffffff;
+  width: 1150px;
+  height: 350px;
+  margin: 0;
+  left: 43%;
+  top: 74%;
+  transform: translate(-43%, -50%);
+}
+
+.mission {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+  color: #111111;
+  margin: 0;
+  left: 15%;
+  top: 15%;
+  transform: translate(-80%, -50%);
+}
+
+.values {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+  color: #111111;
+  margin: 0;
+  left: 39%;
+  top: 15%;
+  transform: translate(-80%, -50%);
+}
+
+.consulting {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+  color: #111111;
+  margin: 0;
+  left: 63%;
+  top: 15%;
+  transform: translate(-80%, -50%);
+}
+
+.goals {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 100%;
+  position: absolute;
+  color: #111111;
+  margin: 0;
+  left: 90%;
+  top: 15%;
+  transform: translate(-12%, -55%);
+}
+
+.justo {
+  position: absolute;
+  width: 240px;
+  line-height: 0.7cm;
+  color: #808080;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0;
+  left: 45%;
+  top: 53%;
+  transform: translate(-80%, -50%);
+}
+
+.justo1 {
+  position: absolute;
+  width: 240px;
+  line-height: 0.7cm;
+  color: #808080;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0;
+  left: 94%;
+  top: 53%;
+  transform: translate(-80%, -50%);
+}
+
+.justo2 {
+  position: absolute;
+  width: 240px;
+  line-height: 0.7cm;
+  color: #808080;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0;
+  left: 20%;
+  top: 53%;
+  transform: translate(-80%, -50%);
+}
+
+.justo3 {
+  position: absolute;
+  width: 240px;
+  line-height: 0.7cm;
+  color: #808080;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0;
+  left: 69%;
+  top: 53%;
+  transform: translate(-80%, -50%);
+}
+
+.line {
+  position: absolute;
+  width: 210px;
+  border-bottom: 2px solid #ea651c;
+  margin: 0;
+  left: 44%;
+  top: 24%;
+  transform: translate(-84%, -50%);
+}
+
+.line1 {
+  position: absolute;
+  width: 210px;
+  border-bottom: 2px solid #ea651c;
+  margin: 0;
+  left: 69%;
+  top: 24%;
+  transform: translate(-90%, -50%);
+}
+
+.line2 {
+  position: absolute;
+  width: 210px;
+  border-bottom: 2px solid #ea651c;
+  margin: 0;
+  left: 93%;
+  top: 24%;
+  transform: translate(-84%, -50%);
+}
+
+.line3 {
+  position: absolute;
+  width: 210px;
+  border-bottom: 2px solid #ea651c;
+  margin: 0;
+  left: 20%;
+  top: 24%;
+  transform: translate(-88%, -50%);
+}
+
+@media only screen and (max-width: 1200px) {
+  .boxpic {
+    position: absolute;
+    left: 79%;
+    top: 35%;
+    transform: translate(-80%, -50%);
+    width: 1200px;
+    height: 750px;
+    margin-top: -1rem;
+  }
+
+  .blackbox {
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    margin: 0;
+    left: 45%;
+    top: 28%;
+    transform: translate(-80%, -50%);
+  }
+
+  .agency {
+    position: absolute;
+    margin: 0;
+    left: 87%;
+    top: 17%;
+    transform: translate(-80%, -50%);
+  }
+
+  .agencyy {
+    position: absolute;
+    margin: 0;
+    left: 45%;
+    top: 37%;
+    transform: translate(-80%, -50%);
+  }
+
+  .agencyyy {
+    position: absolute;
+    margin: 0;
+    left: 51%;
+    top: 60%;
+    transform: translate(-80%, -50%);
+  }
+
+  .agencyyyy {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    left: 87%;
+    top: 83%;
+    transform: translate(-80%, -50%);
+  }
+
+  .orangebox {
+    position: absolute;
+    left: 51%;
+    top: 56%;
+    transform: translate(-80%, -50%);
+  }
+
+  .missionbox {
+    position: absolute;
+    width: 980px;
+    height: 350px;
+    margin: 0;
+    left: 44%;
+    top: 72%;
+    transform: translate(-43%, -50%);
+  }
+
+  .mission {
+    position: absolute;
+    margin: 0;
+    left: 16%;
+    top: 15%;
+    transform: translate(-80%, -50%);
+  }
+
+  .values {
+    position: absolute;
+    margin: 0;
+    left: 39%;
+    top: 15%;
+    transform: translate(-80%, -50%);
+  }
+
+  .consulting {
+    position: absolute;
+    margin: 0;
+    left: 63%;
+    top: 15%;
+    transform: translate(-80%, -50%);
+  }
+
+  .goals {
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 88%;
+    top: 15%;
+    transform: translate(-12%, -55%);
+  }
+
+  .justo {
+    position: absolute;
+    width: 200px;
+    margin: 0;
+    left: 44%;
+    top: 56%;
+    transform: translate(-80%, -50%);
+  }
+
+  .justo1 {
+    position: absolute;
+    width: 200px;
+    margin: 0;
+    left: 92%;
+    top: 56%;
+    transform: translate(-80%, -50%);
+  }
+
+  .justo2 {
+    position: absolute;
+    width: 200px;
+    margin: 0;
+    left: 20%;
+    top: 56%;
+    transform: translate(-80%, -50%);
+  }
+
+  .justo3 {
+    position: absolute;
+    width: 200px;
+    margin: 0;
+    left: 68%;
+    top: 56%;
+    transform: translate(-80%, -50%);
+  }
+
+  .line {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 43%;
+    top: 24%;
+    transform: translate(-84%, -50%);
+  }
+
+  .line1 {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 68%;
+    top: 24%;
+    transform: translate(-90%, -50%);
+  }
+
+  .line2 {
+    position: absolute;
+    width: 200px;
+    margin: 0;
+    left: 93%;
+    top: 24%;
+    transform: translate(-84%, -50%);
+  }
+
+  .line3 {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 19%;
+    top: 24%;
+    transform: translate(-83%, -50%);
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .gridbox1 {
+    height: 1500px;
+  }
+
+  .boxpic {
+    position: absolute;
+    left: 79%;
+    top: 35%;
+    transform: translate(-80%, -50%);
+    width: 1050px;
+    height: 630px;
+    margin-top: -13rem;
+  }
+
+  .rakuten {
+    position: absolute;
+    margin: 0;
+    left: 79%;
+    top: 56%;
+    transform: translate(-80%, -50%);
+    width: 950px;
+    height: 1200px;
+  }
+
+  .blackbox {
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    margin: 0;
+    left: 54%;
+    top: 23%;
+    transform: translate(-80%, -50%);
+  }
+
+  .orangebox {
+    position: absolute;
+    height: 1000px;
+    left: 62%;
+    top: 57%;
+    transform: translate(-80%, -50%);
+  }
+
+  .missionbox {
+    position: absolute;
+    width: 750px;
+    height: 610px;
+    margin: 0;
+    background-color: #ffffff;
+    left: 46%;
+    top: 67%;
+    transform: translate(-43%, -50%);
+  }
+
+  .mission {
+    position: absolute;
+    margin: 0;
+    left: 22%;
+    top: 10%;
+    transform: translate(-80%, -50%);
+  }
+
+  .values {
+    position: absolute;
+    margin: 0;
+    left: 71%;
+    top: 10%;
+    transform: translate(-80%, -50%);
+  }
+
+  .consulting {
+    position: absolute;
+    margin: 0;
+    left: 21%;
+    top: 56%;
+    transform: translate(-80%, -50%);
+  }
+
+  .goals {
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 68%;
+    top: 56%;
+    transform: translate(-12%, -55%);
+  }
+
+  .justo {
+    position: absolute;
+    width: 300px;
+    margin: 0;
+    left: 68%;
+    top: 31%;
+    transform: translate(-30%, -50%);
+  }
+
+  .justo1 {
+    position: absolute;
+    width: 300px;
+    margin: 0;
+    left: 68%;
+    top: 74%;
+    transform: translate(-30%, -50%);
+  }
+
+  .justo2 {
+    position: absolute;
+    width: 300px;
+    margin: 0;
+    left: 38%;
+    top: 31%;
+    transform: translate(-80%, -50%);
+  }
+
+  .justo3 {
+    position: absolute;
+    width: 300px;
+    margin: 0;
+    left: 38%;
+    top: 74%;
+    transform: translate(-80%, -50%);
+  }
+
+  .line {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 76%;
+    top: 15%;
+    transform: translate(-84%, -50%);
+  }
+
+  .line1 {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 27%;
+    top: 61%;
+    transform: translate(-90%, -50%);
+  }
+
+  .line2 {
+    position: absolute;
+    width: 200px;
+    margin: 0;
+    left: 78%;
+    top: 61%;
+    transform: translate(-84%, -50%);
+  }
+
+  .line3 {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 25%;
+    top: 15%;
+    transform: translate(-83%, -50%);
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .boxpic {
+    position: absolute;
+    left: 79%;
+    top: 19%;
+    transform: translate(-80%, -50%);
+    width: 840px;
+    height: 510px;
+    object-fit: cover;
+    margin-top: -1rem;
+  }
+
+  .rakuten {
+    position: absolute;
+    margin: 0;
+    left: 77%;
+    top: 56%;
+    transform: translate(-80%, -50%);
+    width: 800px;
+    height: 1200px;
+  }
+
+  .blackbox {
+    position: absolute;
+    width: 480px;
+    height: 320px;
+    margin: 0;
+    left: 63%;
+    top: 22%;
+    transform: translate(-80%, -50%);
+  }
+
+  .orangebox {
+    position: absolute;
+    height: 1000px;
+    left: 71%;
+    top: 55%;
+    transform: translate(-80%, -50%);
+  }
+
+  .missionbox {
+    position: absolute;
+    width: 520px;
+    height: 610px;
+    margin: 0;
+    background-color: #ffffff;
+    left: 43%;
+    top: 65%;
+    transform: translate(-43%, -50%);
+  }
+
+  .mission {
+    position: absolute;
+    margin: 0;
+    left: 28%;
+    top: 10%;
+    transform: translate(-80%, -50%);
+  }
+
+  .values {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    left: 66%;
+    top: 10%;
+    transform: translate(-10%, -50%);
+  }
+
+  .consulting {
+    position: absolute;
+    margin: 0;
+    left: 26%;
+    top: 56%;
+    transform: translate(-80%, -50%);
+  }
+
+  .goals {
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 68%;
+    top: 56%;
+    transform: translate(-12%, -55%);
+  }
+
+  .justo {
+    position: absolute;
+    width: 220px;
+    margin: 0;
+    left: 68%;
+    top: 31%;
+    transform: translate(-30%, -50%);
+  }
+
+  .justo1 {
+    position: absolute;
+    width: 220px;
+    margin: 0;
+    left: 68%;
+    top: 76%;
+    transform: translate(-30%, -50%);
+  }
+
+  .justo2 {
+    position: absolute;
+    width: 220px;
+    margin: 0;
+    left: 38%;
+    top: 31%;
+    transform: translate(-80%, -50%);
+  }
+
+  .justo3 {
+    position: absolute;
+    width: 220px;
+    margin: 0;
+    left: 38%;
+    top: 76%;
+    transform: translate(-80%, -50%);
+  }
+
+  .line {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 84%;
+    top: 15%;
+    transform: translate(-84%, -50%);
+  }
+
+  .line1 {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 35%;
+    top: 61%;
+    transform: translate(-90%, -50%);
+  }
+
+  .line2 {
+    position: absolute;
+    width: 200px;
+    margin: 0;
+    left: 88%;
+    top: 61%;
+    transform: translate(-84%, -50%);
+  }
+
+  .line3 {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 33%;
+    top: 15%;
+    transform: translate(-83%, -50%);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .boxpic {
+    position: absolute;
+    left: 79%;
+    top: 19%;
+    transform: translate(-80%, -50%);
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: -7rem;
+  }
+
+  .gridbox1 {
+    display: grid;
+    height: 1800px;
+    min-width: 50px;
+    background-color: #e5e5e5;
+    position: relative;
+    margin-left: -1rem;
+    margin-top: -3rem;
+  }
+
+  .rakuten {
+    position: absolute;
+    margin: 0;
+    left: 77%;
+    top: 56%;
+    transform: translate(-80%, -50%);
+    width: 800px;
+    height: 1500px;
+  }
+
+  .blackbox {
+    position: absolute;
+    width: 410px;
+    height: 320px;
+    margin: 0;
+    left: 74%;
+    top: 17%;
+    transform: translate(-80%, -50%);
+  }
+
+  .agencyy {
+    position: absolute;
+    margin: 0;
+    left: 52%;
+    top: 39%;
+    transform: translate(-80%, -50%);
+  }
+
+  .agencyyy {
+    position: absolute;
+    margin: 0;
+    left: 59%;
+    top: 62%;
+    transform: translate(-80%, -50%);
+  }
+
+  .orangebox {
+    position: absolute;
+    height: 1300px;
+    width: 360px;
+    left: 80%;
+    top: 54%;
+    transform: translate(-80%, -50%);
+  }
+
+  .missionbox {
+    position: absolute;
+    width: 410px;
+    height: 960px;
+    margin: 0;
+    background-color: #ffffff;
+    left: 55%;
+    top: 63%;
+    transform: translate(-43%, -50%);
+  }
+
+  .mission {
+    position: absolute;
+    margin: 0;
+    left: 45%;
+    top: 5%;
+    transform: translate(-80%, -50%);
+  }
+
+  .values {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    left: 26%;
+    top: 29%;
+    transform: translate(-10%, -50%);
+  }
+
+  .consulting {
+    position: absolute;
+    margin: 0;
+    left: 43%;
+    top: 53%;
+    transform: translate(-80%, -50%);
+  }
+
+  .goals {
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 28%;
+    top: 77%;
+    transform: translate(-12%, -55%);
+  }
+
+  .justo {
+    position: absolute;
+    width: 280px;
+    margin: 0;
+    left: 35%;
+    top: 41%;
+    transform: translate(-30%, -50%);
+  }
+
+  .justo1 {
+    position: absolute;
+    width: 280px;
+    margin: 0;
+    left: 35%;
+    top: 89%;
+    transform: translate(-30%, -50%);
+  }
+
+  .justo2 {
+    position: absolute;
+    width: 280px;
+    margin: 0;
+    left: 70%;
+    top: 17%;
+    transform: translate(-80%, -50%);
+  }
+
+  .justo3 {
+    position: absolute;
+    width: 280px;
+    margin: 0;
+    left: 69%;
+    top: 65%;
+    transform: translate(-80%, -50%);
+  }
+
+  .line {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 50%;
+    top: 32%;
+    transform: translate(-84%, -50%);
+  }
+
+  .line1 {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 53%;
+    top: 56%;
+    transform: translate(-90%, -50%);
+  }
+
+  .line2 {
+    position: absolute;
+    width: 200px;
+    margin: 0;
+    left: 55%;
+    top: 80%;
+    transform: translate(-84%, -50%);
+  }
+
+  .line3 {
+    position: absolute;
+    width: 180px;
+    margin: 0;
+    left: 50%;
+    top: 8%;
+    transform: translate(-83%, -50%);
+  }
+}

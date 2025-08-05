@@ -1,0 +1,595 @@
+.gridbox2 {
+  display: grid;
+  min-width: 200px;
+  height: 445px;
+  margin-left: -1rem;
+  background-color: #ea651c;
+  position: relative;
+}
+
+.animebox {
+  position: absolute;
+  width: 1200px;
+  height: 443px;
+  margin: 0;
+  left: 41%;
+  top: 50%;
+  transform: translate(-43%, -50%);
+}
+
+.ball {
+  position: absolute;
+  width: 300px;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.8125rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  left: 18%;
+  top: 13%;
+  transform: translate(-54%, -50%);
+}
+
+.baller {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 0.9cm;
+  width: 330px;
+  margin: 0;
+  left: 28%;
+  top: 50%;
+  transform: translate(-84%, -50%);
+}
+
+.ballercontainer {
+  position: absolute;
+  border-radius: 30px;
+  border: 1px solid #ea651c;
+  border-width: 1px 1px;
+  margin: 0;
+  left: 18%;
+  top: 80%;
+  transform: translate(-82%, -6%);
+  cursor: pointer;
+  width: 150px;
+  padding: 17px;
+  height: 27px;
+}
+
+.baller1 {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #111111;
+  border-radius: 30px;
+  width: 150px;
+  padding: 17px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-width: 2px 2px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  left: 85%;
+  top: 50%;
+  transform: translate(-84%, -50%);
+  cursor: pointer;
+}
+
+.baller1j {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  border-radius: 30px;
+  width: 150px;
+  padding: 18px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-width: 2px 2px;
+  background-color: #ea651c;
+  text-transform: uppercase;
+  margin: 0;
+  left: 85%;
+  top: 50%;
+  transform: translate(-84%, -50%);
+  cursor: pointer;
+  opacity: 0;
+}
+
+.ballercontainer:hover .baller1j {
+  opacity: 1;
+}
+
+.baller2 {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0.7cm;
+  color: #ffffff;
+  width: 180px;
+  margin: 0;
+  left: 54%;
+  top: 73%;
+  transform: translate(-84%, -50%);
+}
+
+.baller3 {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0.7cm;
+  color: #ffffff;
+  width: 160px;
+  margin: 0;
+  left: 97%;
+  top: 73%;
+  transform: translate(-84%, -50%);
+}
+
+.baller4 {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0.7cm;
+  color: #ffffff;
+  width: 160px;
+  margin: 0;
+  left: 75%;
+  top: 73%;
+  transform: translate(-84%, -50%);
+}
+
+.cool {
+  border-radius: 50%;
+  position: absolute;
+  margin: 0;
+  left: 53%;
+  top: 36%;
+  transform: translate(-84%, -50%);
+}
+
+.cool1 {
+  border-radius: 50%;
+  position: absolute;
+  margin: 0;
+  left: 75%;
+  top: 36%;
+  transform: translate(-84%, -50%);
+}
+
+.cool2 {
+  border-radius: 50%;
+  position: absolute;
+  margin: 0;
+  left: 87%;
+  top: 36%;
+  transform: translate(-14%, -50%);
+}
+
+.freepik1 {
+  cursor: pointer;
+  border-bottom: 1px solid #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 0.2cm;
+}
+
+.quis {
+  cursor: pointer;
+  border-bottom: 1px solid #ffffff;
+  margin-left: 0.2cm;
+}
+
+@media only screen and (max-width: 1200px) {
+  .animebox {
+    position: absolute;
+    width: 1100px;
+    height: 443px;
+    margin: 0;
+    left: 41%;
+    top: 50%;
+    transform: translate(-43%, -50%);
+  }
+
+  .ball {
+    position: absolute;
+    width: 300px;
+    font-family: Montserrat, sans-serif;
+    font-size: 2.8125rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+    left: 20%;
+    top: 13%;
+    transform: translate(-54%, -50%);
+  }
+
+  .baller {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 0.9cm;
+    width: 330px;
+    margin: 0;
+    left: 31%;
+    top: 50%;
+    transform: translate(-84%, -50%);
+  }
+
+  .ballercontainer {
+    position: absolute;
+    border-radius: 30px;
+    border: 1px solid #ea651c;
+    border-width: 1px 1px;
+    margin: 0;
+    left: 20%;
+    top: 80%;
+    transform: translate(-82%, -6%);
+    cursor: pointer;
+    width: 150px;
+    padding: 17px;
+    height: 27px;
+  }
+
+  .baller2 {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0.7cm;
+    color: #ffffff;
+    width: 180px;
+    margin: 0;
+    left: 54%;
+    top: 73%;
+    transform: translate(-84%, -50%);
+  }
+
+  .baller3 {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0.7cm;
+    color: #ffffff;
+    width: 160px;
+    margin: 0;
+    left: 95%;
+    top: 73%;
+    transform: translate(-84%, -50%);
+  }
+
+  .baller4 {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0.7cm;
+    color: #ffffff;
+    width: 160px;
+    margin: 0;
+    left: 75%;
+    top: 73%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool {
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+    left: 53%;
+    top: 36%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool1 {
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+    left: 75%;
+    top: 36%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool2 {
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+    left: 84%;
+    top: 36%;
+    transform: translate(-14%, -50%);
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .gridbox2 {
+    display: grid;
+    height: 1200px;
+  }
+
+  .animebox {
+    position: absolute;
+    width: 800px;
+    height: 1000px;
+    margin: 0;
+    left: 42%;
+    top: 50%;
+    transform: translate(-43%, -50%);
+  }
+
+  .ball {
+    position: absolute;
+    margin: 0;
+    left: 40%;
+    top: 5%;
+    transform: translate(-84%, -80%);
+  }
+
+  .baller {
+    position: absolute;
+    width: 670px;
+    margin: 0;
+    left: 29%;
+    top: 16%;
+    transform: translate(-24%, -50%);
+  }
+
+  .ballercontainer {
+    position: relative;
+    margin: 0;
+    left: 16%;
+    top: 29%;
+    transform: translate(-32%, -46%);
+  }
+
+  .baller2 {
+    position: absolute;
+    width: 320px;
+    margin: 0;
+    left: 43%;
+    top: 64%;
+    transform: translate(-84%, -50%);
+  }
+
+  .baller3 {
+    position: absolute;
+    width: 320px;
+    margin: 0;
+    left: 43%;
+    top: 96%;
+    transform: translate(-84%, -50%);
+  }
+
+  .baller4 {
+    position: absolute;
+    width: 320px;
+    margin: 0;
+    left: 94%;
+    top: 64%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool {
+    position: absolute;
+    margin: 0;
+    left: 27%;
+    top: 49%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool1 {
+    position: absolute;
+    margin: 0;
+    left: 78%;
+    top: 49%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool2 {
+    position: absolute;
+    margin: 0;
+    left: 27%;
+    top: 82%;
+    transform: translate(-84%, -50%);
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .gridbox2 {
+    display: grid;
+    height: 1500px;
+  }
+
+  .animebox {
+    position: absolute;
+    width: 700px;
+    height: 1300px;
+    margin: 0;
+    left: 42%;
+    top: 50%;
+    transform: translate(-43%, -50%);
+  }
+
+  .ball {
+    position: absolute;
+    margin: 0;
+    left: 46%;
+    top: 3%;
+    transform: translate(-84%, -50%);
+  }
+
+  .baller {
+    position: absolute;
+    width: 550px;
+    margin: 0;
+    left: 29%;
+    top: 13%;
+    transform: translate(-24%, -50%);
+  }
+
+  .ballercontainer {
+    position: relative;
+    margin: 0;
+    left: 19%;
+    top: 23%;
+    transform: translate(-32%, -46%);
+  }
+
+  .baller2 {
+    position: absolute;
+    width: 320px;
+    margin: 0;
+    left: 49%;
+    top: 50%;
+    transform: translate(-84%, -50%);
+  }
+
+  .baller3 {
+    position: absolute;
+    width: 340px;
+    margin: 0;
+    left: 49%;
+    top: 97%;
+    transform: translate(-84%, -50%);
+  }
+
+  .baller4 {
+    position: absolute;
+    width: 340px;
+    margin: 0;
+    left: 49%;
+    top: 74%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool {
+    position: absolute;
+    margin: 0;
+    left: 31%;
+    top: 39%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool1 {
+    position: absolute;
+    margin: 0;
+    left: 31%;
+    top: 64%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool2 {
+    position: absolute;
+    margin: 0;
+    left: 31%;
+    top: 87%;
+    transform: translate(-84%, -50%);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .gridbox2 {
+    display: grid;
+    min-width: 50px;
+    height: 1500px;
+  }
+
+  .animebox {
+    position: absolute;
+    width: 500px;
+    height: 1400px;
+    margin: 0;
+    left: 42%;
+    top: 50%;
+    transform: translate(-43%, -50%);
+  }
+
+  .ball {
+    position: absolute;
+    margin: 0;
+    left: 60%;
+    top: 2%;
+    transform: translate(-84%, -50%);
+  }
+
+  .baller {
+    position: absolute;
+    width: 320px;
+    margin: 0;
+    left: 26%;
+    top: 13%;
+    transform: translate(-24%, -50%);
+  }
+
+  .ballercontainer {
+    position: relative;
+    margin: 0;
+    left: 23%;
+    top: 25%;
+    transform: translate(-32%, -46%);
+  }
+
+  .baller2 {
+    position: absolute;
+    width: 320px;
+    margin: 0;
+    left: 65%;
+    top: 49%;
+    transform: translate(-84%, -50%);
+  }
+
+  .baller3 {
+    position: absolute;
+    width: 320px;
+    margin: 0;
+    left: 65%;
+    top: 97%;
+    transform: translate(-84%, -50%);
+  }
+
+  .baller4 {
+    position: absolute;
+    width: 320px;
+    margin: 0;
+    left: 65%;
+    top: 73%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool {
+    position: absolute;
+    margin: 0;
+    left: 40%;
+    top: 39%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool1 {
+    position: absolute;
+    margin: 0;
+    left: 40%;
+    top: 63%;
+    transform: translate(-84%, -50%);
+  }
+
+  .cool2 {
+    position: absolute;
+    margin: 0;
+    left: 40%;
+    top: 87%;
+    transform: translate(-84%, -50%);
+  }
+}
