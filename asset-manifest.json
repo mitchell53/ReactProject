@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ReactProject/static/css/main.054d8d45.css",
+    "main.js": "/ReactProject/static/js/main.1ff17f2c.js",
+    "static/media/ghhg.jpg": "/ReactProject/static/media/ghhg.f7fdbad26305f6affbad.jpg",
+    "static/media/lawpic.jpg": "/ReactProject/static/media/lawpic.172d9f0874cbc42dbc03.jpg",
+    "static/media/kjdf.jpg": "/ReactProject/static/media/kjdf.c009a724ba5f8e5ad418.jpg",
+    "static/media/vbvb.jpg": "/ReactProject/static/media/vbvb.60712a180d3cf23c92ce.jpg",
+    "static/media/dnkc.jpg": "/ReactProject/static/media/dnkc.8b36c6f59b8fe46bdd68.jpg",
+    "static/media/bnbn.jpg": "/ReactProject/static/media/bnbn.2ee78c82384a72652694.jpg",
+    "static/media/dbjf.jpeg": "/ReactProject/static/media/dbjf.7bc389ef634e2193c2b2.jpeg",
+    "static/media/aadf.png": "/ReactProject/static/media/aadf.b0d221c1085adef4fbbc.png",
+    "index.html": "/ReactProject/index.html",
+    "main.054d8d45.css.map": "/ReactProject/static/css/main.054d8d45.css.map",
+    "main.1ff17f2c.js.map": "/ReactProject/static/js/main.1ff17f2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.054d8d45.css",
+    "static/js/main.1ff17f2c.js"
+  ]
+}
